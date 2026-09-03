@@ -8,6 +8,18 @@ I build and operate production systems for a national media platform: custom Wor
 
 ## Selected engineering
 
+### [FISM Newsroom](https://github.com/elijahek/fism-newsroom)
+
+Accessible WordPress newsroom and media center with editorial search, content-type filters, responsive cards, reduced-motion support, external media handling, and a producer-focused press kit.
+
+### [FISM Podcast Player](https://github.com/elijahek/fism-podcast-player)
+
+First-party podcast player that resolves mixed-content failures in iOS and Android app webviews through server-side feed processing, trusted-host HTTPS normalization, resilient caching, and native media controls.
+
+### [FISM Notifications](https://github.com/elijahek/fism-notifications)
+
+Partner notification system that consolidates eight production snippets into a maintainable plugin while preserving existing content and per-user state, with safe cutover checks and expiration backfill tooling.
+
 ### [FISM Community Chat](https://github.com/elijahek/fism-community-chat)
 
 Authenticated real-time member community built across WordPress/PHP and a Node.js/Socket.io service. The public release documents signed identity, room permissions, terms acceptance, moderation, REST integration, administration, and responsive behavior.
