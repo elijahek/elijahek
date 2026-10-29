@@ -38,6 +38,24 @@ Production-derived, sanitized release of in-house software supporting live and o
 
 React 19, TypeScript, vinext, responsive design, automated builds, and a dedicated evidence system assembled from actual production captures rather than mockups.
 
+## Automation and AI systems
+
+### [Partner sync: WooCommerce → DonorPerfect → Constant Contact](https://github.com/elijahek/partner-sync-make-donorperfect-constant-contact)
+
+Nine-scenario Make integration that keeps membership, donor, and email-list records consistent across three systems: real-time webhooks plus nightly reconciliation, fill-empty-only CRM writes, and a never-unsubscribe rule. Includes Python helpers and tests.
+
+### [AI media publishing pipeline](https://github.com/elijahek/ai-media-publishing-pipeline)
+
+Show clips → S3/CDN → Google Sheet queue → Make → OpenAI transcription → WordPress, with a person reviewing before anything goes live.
+
+### [Fire TV app](https://github.com/elijahek/fism-fire-tv-app)
+
+Fire TV app mirroring the organization's BoxCast Roku and Apple TV apps. Submitted to the Amazon Appstore, October 2026.
+
+### [Portfolio Tracker takeover](https://github.com/elijahek/portfolio-tracker-wordpress-plugin) · in progress
+
+Bringing a contracted member-facing WordPress plugin in-house: staging with real data, requested fixes, and a redesign.
+
 ## Production scope
 
 - Platform supporting approximately 23,000 registered members
@@ -49,7 +67,7 @@ React 19, TypeScript, vinext, responsive design, automated builds, and a dedicat
 
 ## Stack
 
-`PHP` `JavaScript` `Node.js` `Socket.io` `WordPress` `MySQL` `REST` `React` `TypeScript` `Linux` `AWS` `Cloudflare` `DigitalOcean`
+`PHP` `JavaScript` `Node.js` `Socket.io` `WordPress` `MySQL` `REST` `React` `TypeScript` `Linux` `AWS` `Cloudflare` `DigitalOcean` `Make` `Zapier` `OpenAI API` `Python`
 
 Before software, I spent six years as a U.S. Coast Guard avionics technician and search-and-rescue aircrew member. That experience shaped how I work now: stay calm, trace the real failure, communicate clearly, and own the outcome.
 
